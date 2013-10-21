@@ -15,7 +15,9 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 libraryDependencies ++= Seq(
     "org.scalatra" %% "scalatra" % "2.2.1",
     "org.eclipse.jetty.orbit" % "javax.servlet" % "3.0.0.v201112011016" artifacts (Artifact("javax.servlet", "jar", "jar")),
-    "org.eclipse.jetty" % "jetty-webapp" % "8.1.8.v20121106"
+    "org.eclipse.jetty" % "jetty-webapp" % "8.1.8.v20121106",
+    "org.slf4j" % "slf4j-simple" % "1.7.5",
+    "org.specs2" %% "specs2" % "2.2.3" % "test"
 )
 
 assemblySettings

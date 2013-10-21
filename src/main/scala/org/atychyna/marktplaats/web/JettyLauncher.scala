@@ -1,4 +1,4 @@
-package org.atychyna.marktplaats
+package org.atychyna.marktplaats.web
 
 import org.eclipse.jetty.server.Server
 import org.eclipse.jetty.servlet.DefaultServlet

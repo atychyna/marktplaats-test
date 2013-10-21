@@ -1,4 +1,4 @@
-import org.atychyna.marktplaats.ParseServlet
+import org.atychyna.marktplaats.web.ParseServlet
 import org.scalatra.LifeCycle
 import javax.servlet.ServletContext
 
