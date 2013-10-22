@@ -35,3 +35,5 @@ mergeStrategy in assembly <<= (mergeStrategy in assembly) { (old) =>
 mainClass in assembly := Some("org.atychyna.marktplaats.web.JettyLauncher")
 
 test in assembly := {}
+
+jarName in assembly := "marktplaats-test.jar"
